@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("341e800b1f29d3e34ea2eba5a6af205c.gif");
+    color: white; /* Set default text color to white */
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 100px;
+    border-radius: 100%;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
